@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Travel Card",
+        "spend_limit": 5000
+    },
+    {
+        "name": "Groceries Card",
+        "spend_limit": 3000
+    },
+    {
+        "name": "Dining Card",
+        "spend_limit": 1000
+    }
+]
