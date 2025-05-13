@@ -129,7 +129,7 @@ It will return a JSON response like this:
 
 
 
-CURL EXAMPLES
+# CURL EXAMPLES
 run backend server before running curl
 
  RUNNING ON TERMINAL BELOW COMMAND
