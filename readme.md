@@ -141,18 +141,18 @@ run backend server before running curl
 curl -X POST http://localhost:8000/recommend  -H "Content-Type: application/json"  -d "{\"travel\": 100.0, \"groceries\": 50.0, \"dining\": 25.0}"
 ```
 EXPECTED OUTPUT : {"recommended_card":"Dining Card"}
-AcTUAL OUTPUT : {"recommended_card":"Dining Card"}
+ACTUAL OUTPUT : {"recommended_card":"Dining Card"}
 
 2. Above Normal Spending
 ```bash
 curl -X POST http://localhost:8000/recommend  -H "Content-Type: application/json"  -d "{\"travel\": 100.0, \"groceries\": 500.0, \"dining\": 2005.0}"
 ```
-EXPECTED OUTPUT : {"recommended_card":"Groceries Card"}
-AcTUAL OUTPUT : {"recommended_card":"Groceries Card"}
+EXPECTED OUTPUT : {"recommended_card":"Groceries Card"} \n
+ACTUAL OUTPUT : {"recommended_card":"Groceries Card"}
 
 3. High Spending Edge Case
 ```bash
 curl -X POST http://localhost:8000/recommend  -H "Content-Type: application/json"  -d "{\"travel\": 10000, \"groceries\": 20000, \"dining\": 150000}"
 ```
 EXPECTED OUTPUT : {"recommended_card":"Travel Card"}
-AcTUAL OUTPUT : {"recommended_card":"Travel Card"}
+ACTUAL OUTPUT : {"recommended_card":"Travel Card"}
