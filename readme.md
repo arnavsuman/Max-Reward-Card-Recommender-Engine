@@ -65,7 +65,7 @@ INSTALIING
 Install Dependencies:
 
 ```bash
-git clone https://github.com/
+git clone https://github.com/arnavsuman/Maxx-Mai-Card
 cd maxxmaicard/backend
 ```
 
