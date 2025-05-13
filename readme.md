@@ -111,7 +111,7 @@ pip install pymongo
 python email_auth.py
 ```
 
-NOTES
+# NOTES
 
 The frontend form collects values for travel, groceries, and dining, and sends them as the JSON payload to the backend for processing.
 
