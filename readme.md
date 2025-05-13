@@ -1,4 +1,4 @@
-MaxxMai Card Recommender
+# Item 1 MaxxMai Card Recommender Engine
 
 The MaxxMai Card Recommender is a web application built using FastAPI for the backend and React for the frontend. The goal of this project is to provide users with personalized credit card recommendations based on their monthly spending in categories like travel, groceries, and dining.
 
@@ -59,6 +59,7 @@ Suggesting a card with the best rewards in that category.
 
 The recommendation is based on predefined logic (which can later be enhanced with machine learning or a more sophisticated model).
 
+
 INSTALIING
 
 Install Dependencies:
@@ -88,6 +89,26 @@ cd ../
 cd frontend
 npm install   
 npm run dev   # Or use `yarn dev` if you prefer yarn
+```
+
+# Item 2: MongoDB Email Statement and User Profile Uploader
+
+This Python script processes email sender information and associated statement content, storing both in a MongoDB database. It extracts user details from the email header and saves user preferences and associated financial statements into separate MongoDB collections.
+
+Extracts sender's name and email address from email headers.
+
+Prompts for user preference (Preferred Banking Partner).
+
+Inserts statement content into the statements collection.
+
+Links and stores user profile details (including preferences) in the user_profiles collection.
+
+Automatically maintains the relationship between statement and user using MongoDB _id.
+Installation
+Ensure MongoDB is running locally.
+```bash
+pip install pymongo
+python email_auth.py
 ```
 
 NOTES
