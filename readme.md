@@ -1,4 +1,4 @@
-# Item 1 MaxxMai Card Recommender Engine
+#  Max Rewards Card Recommender Engine
 
 The MaxxMai Card Recommender is a web application built using FastAPI for the backend and React for the frontend. The goal of this project is to provide users with personalized credit card recommendations based on their monthly spending in categories like travel, groceries, and dining.
 
