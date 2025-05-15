@@ -7,8 +7,7 @@ The Max Rewards Card Recommender Engine is a web application built using FastAPI
 The overall workflow is divided into two parts: the Frontend (React) and the Backend (FastAPI). Here’s a breakdown of each component and how they interact.
 
 ## Frontend: React
-![Frontend.png](https://drive.google.com/uc?export=view&id=14EbGGMDQhhdZ7AMsMwMp0LdIrd-zL0rs)
-
+![Frontend.png](https://drive.google.com/uc?export=view&id=1BwO7-1VB7D_Ipx3kPj7K_2SEgchwM9sG)
 
 ### User Input:
 
@@ -33,6 +32,10 @@ The frontend then displays the recommended card to the user.
 The frontend uses a simple React interface with inline styling and a form for input. The result of the recommendation (the name of the recommended credit card) is displayed dynamically below the form.
 
 ## Backend: FastAPI
+
+![api.png](https://drive.google.com/uc?export=view&id=1xA3_GpXBri1PCiQDgalIpLVHdXb2K2gL)
+
+
 ### FastAPI Setup:
 
 The backend is built using FastAPI, which is a modern web framework for building APIs with Python. FastAPI is known for being fast and easy to use, and it supports asynchronous request handling out-of-the-box.
