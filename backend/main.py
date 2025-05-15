@@ -26,6 +26,10 @@ class Spends(BaseModel):
     groceries: float
     dining: float
 
+
+@app.get("/")
+def read_root():
+    return {"message": "Credit Card Recommendation API is running"}
 # Define a route for the recommendation endpoint
 @app.post("/recommend")
 def recommend(spends: Spends):
