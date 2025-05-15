@@ -7,7 +7,7 @@ The MaxxMai Card Recommender is a web application built using FastAPI for the ba
 The overall workflow is divided into two parts: the Frontend (React) and the Backend (FastAPI). Here’s a breakdown of each component and how they interact.
 
 ## Frontend: React
-![image](https://github.com/user-attachments/assets/6c731fb4-0f5a-433d-9789-f41d141ac1e2)
+![Frontend.png](https://drive.google.com/uc?export=view&id=14EbGGMDQhhdZ7AMsMwMp0LdIrd-zL0rs)
 
 
 ### User Input:
