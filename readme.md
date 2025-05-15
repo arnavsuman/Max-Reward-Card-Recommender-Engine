@@ -131,8 +131,18 @@ It will return a JSON response like this:
   "recommended_card": "Card Name"
 }
 
+---
+## Deployment on Render
 
+The App is hosted on Render using Gunicorn + Uvicorn workers.
 
+Home Page - [https://bankbranchapi.onrender.com](https://recommend-card-engine.onrender.com/)
+
+The App is accessible from:- 
+Home Page - [https://recommend-card-fastapi.onrender.com/](https://recommend-card-fastapi.onrender.com/)
+Recommend (POST) - [https://recommend-card-fastapi.onrender.com/recommend](https://recommend-card-fastapi.onrender.com/recommend)
+
+---
 # CURL EXAMPLES
 run backend server before running curl
 
